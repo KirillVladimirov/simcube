@@ -1,0 +1,83 @@
+# pip-compile --output-file requirements.txt requirements.in
+# pip-sync
+
+# install simcube
+-e .
+
+# Web
+# ------------------------------------------------------------------------------
+Flask
+Flask-Admin
+Flask-WTF
+flask-mongoengine
+WTForms
+Jinja2
+
+
+# Databases
+# ------------------------------------------------------------------------------
+SQLAlchemy
+psycopg2
+pymongo
+mongoengine
+
+
+# DS
+# ------------------------------------------------------------------------------
+numpy
+pandas
+faiss-cpu
+sklearn
+seaborn
+matplotlib
+
+
+# NLP
+# ------------------------------------------------------------------------------
+bigartm10
+nltk
+pymorphy2
+pymystem3
+beautifulsoup4
+lxml
+gensim
+spacy-udpipe
+# python -m spacy download en_core_web_sm
+# python -m spacy download en_core_web_md
+# python -m spacy download en_core_web_lg
+# python -m spacy download xx_ent_wiki_sm
+pyconll
+youtokentome
+pytextrank
+networkx
+
+
+# DL
+# ------------------------------------------------------------------------------
+torch
+torchvision
+pytorch_toolbelt
+torchtext
+pytorch-ignite
+transformers
+
+
+# Other
+# ------------------------------------------------------------------------------
+tqdm
+PyYAML
+kaggle
+sympy
+
+
+# IDE
+# ------------------------------------------------------------------------------
+jupyterlab
+nodejs
+jupyter_contrib_nbextensions
+# jupyter contrib nbextension install --user
+ipywidgets
+# jupyter nbextension enable --py widgetsnbextension
+# jupyter labextension install @jupyter-widgets/jupyterlab-manager
+setuptools
+mlflow
